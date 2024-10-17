@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dice Game</title>
+    <link rel="shortcut icon" href="./logo.png.png" type="image/x-icon">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Saylani Mass IT Training (SMIT) Dice Game Assignment</h1>
+        <div id="result"></div>
+        <div class="scores">
+            <div>
+                <h2>Player 1</h2>
+                <p id="score1">Score: 0</p>
+            </div>
+            <div>
+                <h2>Player 2</h2>
+                <p id="score2">Score: 0</p>
+            </div>
+        </div>
+        <div id="coinToss">
+            <label for="playerChoice">Choose Heads or Tails:</label>
+            <select id="playerChoice">
+                <option value="Heads">Heads</option>
+                <option value="Tails">Tails</option>
+            </select>
+            <button id="tossBtn">Toss Coin</button>
+        </div>
+        <button id="rollBtn" style="display: none;">Roll the Dice</button>
+        <button id="startBtn">Start Game</button>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
